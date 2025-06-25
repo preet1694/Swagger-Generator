@@ -1,0 +1,37 @@
+{
+	"name": "swagger-autogen-cli",
+	"version": "1.0.2",
+	"type": "module",
+	"description": "Auto-generate Swagger docs by introspecting Express.js routes and controllers",
+	"main": "index.js",
+	"bin": {
+		"swagger-generator": "./cli.js"
+	},
+	"scripts": {
+		"test": "node test/cli.test.js"
+	},
+	"dependencies": {
+		"@babel/parser": "^7.24.1",
+		"@babel/traverse": "^7.24.1",
+		"acorn": "^8.11.3",
+		"commander": "^11.1.0",
+		"comment-parser": "^1.4.1",
+		"js-yaml": "^4.1.0"
+	},
+	"devDependencies": {
+		"chalk": "^5.3.0"
+	},
+	"keywords": [
+		"swagger",
+		"openapi",
+		"express",
+		"documentation",
+		"cli",
+		"swagger-generator"
+	],
+	"author": "Preet Brahmbhatt",
+	"license": "MIT",
+	"engines": {
+		"node": ">=18"
+	}
+}
