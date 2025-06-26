@@ -5,6 +5,8 @@
 ![npm](https://img.shields.io/npm/v/swagger-autogen-cli?color=green)
 ![license](https://img.shields.io/npm/l/swagger-autogen-cli)
 ![node-current](https://img.shields.io/node/v/swagger-autogen-cli)
+[![npm downloads](https://img.shields.io/npm/dt/my-awesome-package.svg)](https://npm-stat.com/charts.html?package=swagger-autogen-cli)
+
 
 ---
 
